@@ -1,8 +1,12 @@
 #include "atoi.h"
+#include "hanoi.h"
 
 using namespace std;
 
 int main() {
-	atoiClass::runClass();
+	Hanoi myHanoi;
+	Atoi myAtoi;
+	myHanoi.run();
+	myAtoi.run();
 	return 0;
 }

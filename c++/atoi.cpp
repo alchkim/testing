@@ -1,6 +1,6 @@
 #include "atoi.h"
 
-int atoiClass::myAtoi(std::string number) {
+int Atoi::atoi(std::string number) {
 	int result = 0;
 	int sign = 1;
 	int i = 0;
@@ -15,7 +15,7 @@ int atoiClass::myAtoi(std::string number) {
 	return sign * result;
 }
 
-void atoiClass::runClass() {
+void Atoi::run() {
 	std::string escapeKey = "exit";
 	std::string value;
 	bool run = true;
