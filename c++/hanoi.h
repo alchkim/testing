@@ -4,8 +4,8 @@
 
 class Hanoi {
 	private:
-		static int Hanoi(int levels);
+		int Hanoi(int levels);
 	public:
-		static void run();
+		void run();
 };
 #endif

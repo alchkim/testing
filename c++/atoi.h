@@ -4,8 +4,8 @@
 
 class Atoi {
 	private:
-		static int Atoi(std::string number);
+		int Atoi(std::string number);
 	public:
-		static void run();
+		void run();
 };
 #endif
